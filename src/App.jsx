@@ -5,7 +5,7 @@ import { NewsSection } from "./components/NewsSection/NewsSection";
 import { Top3Section } from "./components/Top3Section/Top3Section";
 import { TopArticle } from "./components/TopArticle/TopArticle";
 import styles from "./App.module.css";
-import test from "./assets/images/gamingGrowth.jpg";
+
 const Links = [
 	{
 		newsHeading: "Hydrogen VS Electric Cars",
@@ -21,23 +21,6 @@ const Links = [
 	},
 ];
 
-const top3list = [
-	{
-		heading: "Reviving Retro PCs",
-		desc: "What happens when old PCs are given modern upgrades?",
-		image: "./assets/retroPcs.jpg",
-	},
-	{
-		heading: "Top 10 Laptops of 2022",
-		desc: "Our best picks for various needs and budgets.",
-		image: "../assets/gamingGrowth.jpg",
-	},
-	{
-		heading: "The Growth of Gaming",
-		desc: "How the pandemic has sparked fresh opportunities.",
-		image: "./assets/topLaptops.jpg",
-	},
-];
 export function App() {
 	return (
 		<>
@@ -52,7 +35,7 @@ export function App() {
 						link={"/"}
 					/>
 					<NewsSection Links={Links} />
-					<Top3Section top3list={top3list} />
+					<Top3Section />
 				</ContentWrapper>
 			</div>
 			<Footer />
