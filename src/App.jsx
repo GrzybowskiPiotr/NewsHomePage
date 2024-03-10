@@ -5,7 +5,7 @@ import { NewsSection } from "./components/NewsSection/NewsSection";
 import { Top3Section } from "./components/Top3Section/Top3Section";
 import { TopArticle } from "./components/TopArticle/TopArticle";
 import styles from "./App.module.css";
-
+import test from "./assets/images/gamingGrowth.jpg";
 const Links = [
 	{
 		newsHeading: "Hydrogen VS Electric Cars",
@@ -25,17 +25,17 @@ const top3list = [
 	{
 		heading: "Reviving Retro PCs",
 		desc: "What happens when old PCs are given modern upgrades?",
-		image: "./src/assets/images/image-retro-pcs.jpg",
+		image: "./assets/retroPcs.jpg",
 	},
 	{
 		heading: "Top 10 Laptops of 2022",
 		desc: "Our best picks for various needs and budgets.",
-		image: "./src/assets/images/image-gaming-growth.jpg",
+		image: "../assets/gamingGrowth.jpg",
 	},
 	{
 		heading: "The Growth of Gaming",
 		desc: "How the pandemic has sparked fresh opportunities.",
-		image: "./src/assets/images/image-top-laptops.jpg",
+		image: "./assets/topLaptops.jpg",
 	},
 ];
 export function App() {
