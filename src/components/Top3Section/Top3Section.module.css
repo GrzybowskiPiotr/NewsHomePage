@@ -1,0 +1,30 @@
+
+
+.section ul li {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	color: var(--Grayish_blue);
+	gap: 0.5rem;
+	margin-bottom: 1.75rem;
+	padding: 0.5rem;
+}
+.section ul li img{
+	margin-top: 0.4rem;
+	height: 100%;
+}
+
+.section ul li a:hover {
+	color: var(--cta-color);
+}
+
+.section h3{
+	margin: 0.5rem 0;
+}
+
+.sectionDestopView ul{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;	
+}
+.sectionDestopView {
+	grid-column: 1/3;
+}

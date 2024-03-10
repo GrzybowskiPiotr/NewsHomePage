@@ -1,0 +1,39 @@
+@import "./css_reset.css";
+
+#root {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-height: 100vh;
+}
+
+@font-face {
+	font-family: "Inter";
+	src: url("../assets/fonts/Inter-VariableFont_slnt,wght.ttf");
+	font-weight: 400, 700, 800;
+}
+
+:root {
+	--news-heading: hsl(35, 77%, 62%);
+	--cta-color: hsl(5, 85%, 63%);
+	--theme-main-backgroundColor: hsl(36, 100%, 99%);
+	--Grayish_blue: hsl(233, 8%, 79%);
+	--theme-second-text-color: hsl(236, 13%, 42%);
+	--theme-main-text-color: hsl(240, 100%, 5%);
+}
+html {
+	font-family: "Inter";
+}
+h1 {
+	font-size: 3rem;
+}
+h2 {
+	font-size: 2rem;
+}
+h3 {
+	transition: color 0.2s;
+}
+a {
+	transition: color 0.2s, background-color 0.2s;
+}
+

@@ -1,0 +1,27 @@
+.section {
+	height: fit-content;
+	padding: 1.75rem;
+	background-color: var(--theme-main-text-color);
+	color: var(--news-heading);
+}
+.section li {
+	margin: 2rem 0;
+	border-bottom: 1px solid #fff;
+}
+.section li:last-of-type {
+	border: none;
+	margin-bottom: 0;
+}
+.section li a {
+	color: var(--theme-main-backgroundColor);
+}
+
+h3 {
+	margin: 1rem 0;
+}
+.section li a p {
+	margin-bottom: 2rem;
+}
+.section li a h3:hover {
+	color: var(--news-heading);
+}

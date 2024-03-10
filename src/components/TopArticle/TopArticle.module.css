@@ -1,0 +1,39 @@
+.article {
+	font-family: "Inter";
+	color: var(--theme-main-text-color);
+}
+.article img{
+	width: 100%;
+}
+.article p {
+	margin: 1rem 0;
+	color: var(--theme-second-text-color);
+	line-height: 2rem;
+	font-weight: 400;
+}
+.article a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 13rem;
+	height: 3rem;
+	background-color: var(--cta-color);
+	font-weight: 700;
+	text-transform: uppercase;
+	color: var(--theme-main-backgroundColor);
+	letter-spacing: 5px;
+}
+.article a:hover {
+	background-color: var(--theme-main-text-color);
+}
+
+.details {
+	padding: 1rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 10px;
+}
+.details a {
+	grid-row: 2/3;
+	grid-column: 2/3;
+}
