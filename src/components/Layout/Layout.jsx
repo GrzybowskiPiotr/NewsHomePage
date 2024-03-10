@@ -25,17 +25,17 @@ const top3list = [
 	{
 		heading: "Reviving Retro PCs",
 		desc: "What happens when old PCs are given modern upgrades?",
-		image: "./src/assets/images/image-retro-pcs.jpg",
+		image: "../../assets/images/image-retro-pcs.jpg",
 	},
 	{
 		heading: "Top 10 Laptops of 2022",
 		desc: "Our best picks for various needs and budgets.",
-		image: "./src/assets/images/image-gaming-growth.jpg",
+		image: "../../assets/images/image-gaming-growth.jpg",
 	},
 	{
 		heading: "The Growth of Gaming",
 		desc: "How the pandemic has sparked fresh opportunities.",
-		image: "./src/assets/images/image-top-laptops.jpg",
+		image: "../../assets/images/image-top-laptops.jpg",
 	},
 ];
 
